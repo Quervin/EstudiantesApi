@@ -9,6 +9,7 @@ Namespace Controllers
     Public Class EstudiantesController
         Inherits ApiController
 
+        'Metodo que obtiene los estudiantes
         <HttpGet>
         <Route("api/Estudiantes/ListEstudiantesActivos")>
         Public Function ListEstudiantesActivos() As IHttpActionResult
